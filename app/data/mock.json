@@ -1,0 +1,385 @@
+{
+    "personalInfo": {
+        "name": "Manan Gupta",
+        "initials": "MG",
+        "role": "Full-Stack Engineer",
+        "description": "Full-stack engineer building digital architecture at the intersection of performance and aesthetics.",
+        "email": "guptamanan576@gmail.com",
+        "location": "Chandigarh",
+        "available": true,
+        "heroImage": "/image.jpeg"
+    },
+    "navigation": [
+        {
+            "label": "Works",
+            "href": "/projects"
+        },
+        {
+            "label": "About",
+            "href": "/about"
+        },
+        {
+            "label": "Stack",
+            "href": "/stack"
+        },
+        {
+            "label": "Activity",
+            "href": "/activity"
+        },
+        {
+            "label": "Contact",
+            "href": "/contact"
+        }
+    ],
+    "history": [
+        {
+            "year": "2026",
+            "role": "Ideathon",
+            "company": "Punjab Engineering College"
+        },
+        {
+            "year": "2025",
+            "role": "Pecathon",
+            "company": "Punjab Engineering College"
+        },
+        {
+            "year": "2025",
+            "role": "Smart India Hackathon",
+            "company": "Government of India"
+        }
+    ],
+    "leetcode": {
+        "solved": 542,
+        "total": 2000,
+        "acceptance": "68.4%",
+        "rank": "Top 5%",
+        "stats": {
+            "easy": 312,
+            "medium": 198,
+            "hard": 32
+        },
+        "recent": [
+            {
+                "id": "001",
+                "title": "Two Sum",
+                "difficulty": "EASY",
+                "language": "Python",
+                "time": "2 days ago"
+            },
+            {
+                "id": "146",
+                "title": "LRU Cache",
+                "difficulty": "MEDIUM",
+                "language": "C++",
+                "time": "5 days ago"
+            },
+            {
+                "id": "004",
+                "title": "Median of Two Sorted Arrays",
+                "difficulty": "HARD",
+                "language": "Rust",
+                "time": "1 week ago"
+            },
+            {
+                "id": "042",
+                "title": "Trapping Rain Water",
+                "difficulty": "HARD",
+                "language": "Go",
+                "time": "2 weeks ago"
+            }
+        ]
+    },
+    "github": {
+        "username": "Mananwebdev160408",
+        "repos": 42,
+        "loading": false,
+        "stats": {
+            "contributions": 1243,
+            "stars": 342,
+            "followers": 150
+        },
+        "topRepos": [
+            {
+                "name": "aether-protocol",
+                "description": "AI-driven data visualization engine built with Go.",
+                "language": "Go",
+                "stars": 124,
+                "forks": 12
+            },
+            {
+                "name": "vortex-ui",
+                "description": "High-performance React UI framework.",
+                "language": "TypeScript",
+                "stars": 89,
+                "forks": 8
+            },
+            {
+                "name": "rust-sys-mon",
+                "description": "Real-time system monitoring tool.",
+                "language": "Rust",
+                "stars": 65,
+                "forks": 4
+            }
+        ]
+    },
+    "learningStack": [
+        {
+            "name": "AI-ML"
+        },
+        {
+            "name": "System Design"
+        },
+        {
+            "name": "Data Structures and Algorithms"
+        }
+    ],
+    "techStack": [
+  {
+    "name": "React.js",
+    "percentage": 80,
+    "category": "Frontend Library",
+    "logs": ["HOOKS", "CONTEXT_API", "ROUTING", "COMPONENT_ARCH"]
+  },
+  {
+    "name": "Next.js",
+    "percentage": 70,
+    "category": "Frontend Framework",
+    "logs": ["APP_ROUTER", "SSR_SSG", "API_ROUTES", "AUTH_FLOW"]
+  },
+  {
+    "name": "shadcn/ui",
+    "percentage": 60,
+    "category": "UI Component Library",
+    "logs": ["RADIX_UI", "THEME_SYSTEM", "TAILWIND_INTEGRATION", "ACCESSIBLE_UI"]
+  },
+  {
+    "name": "HTML",
+    "percentage": 90,
+    "category": "Markup Language",
+    "logs": ["SEMANTIC_HTML", "SEO_STRUCTURE", "FORMS", "ACCESSIBILITY"]
+  },
+  {
+    "name": "CSS",
+    "percentage": 85,
+    "category": "Styling",
+    "logs": ["FLEXBOX", "GRID", "RESPONSIVE_DESIGN", "ANIMATIONS"]
+  },
+  {
+    "name": "JavaScript (ES6+)",
+    "percentage": 95,
+    "category": "Programming Language",
+    "logs": ["ASYNC_AWAIT", "ARRAY_METHODS", "ES6_MODULES", "DOM_CONTROL"]
+  },
+  {
+    "name": "Redux",
+    "percentage": 75,
+    "category": "State Management",
+    "logs": ["REDUX_TOOLKIT", "SLICE_PATTERN", "GLOBAL_STATE", "ASYNC_THUNK"]
+  },
+  {
+    "name": "Framer Motion",
+    "percentage": 65,
+    "category": "Animation Library",
+    "logs": ["PAGE_TRANSITIONS", "GESTURES", "SPRING_ANIM", "LAYOUT_ANIM"]
+  },
+  {
+    "name": "Node.js",
+    "percentage": 80,
+    "category": "Backend Runtime",
+    "logs": ["EVENT_LOOP", "REST_SERVERS", "MIDDLEWARE", "ERROR_HANDLING"]
+  },
+  {
+    "name": "Express.js",
+    "percentage": 75,
+    "category": "Backend Framework",
+    "logs": ["ROUTING", "JWT_AUTH", "MVC_PATTERN", "API_VALIDATION"]
+  },
+  {
+    "name": "RESTful APIs",
+    "percentage": 85,
+    "category": "API Architecture",
+    "logs": ["CRUD_DESIGN", "STATUS_CODES", "AUTH_FLOW", "API_SECURITY"]
+  },
+  {
+    "name": "JSON Web Token (JWT)",
+    "percentage": 70,
+    "category": "Authentication",
+    "logs": ["TOKEN_SIGNING", "REFRESH_TOKENS", "PROTECTED_ROUTES", "ROLE_BASED_AUTH"]
+  },
+  {
+    "name": "WebSocket / Socket.io",
+    "percentage": 65,
+    "category": "Realtime Communication",
+    "logs": ["REALTIME_CHAT", "ROOMS", "EVENT_EMITTER", "BIDIRECTIONAL_COMM"]
+  },
+  {
+    "name": "MongoDB",
+    "percentage": 80,
+    "category": "Database",
+    "logs": ["CRUD_OPS", "AGGREGATION", "INDEXING", "DATA_MODELING"]
+  },
+  {
+    "name": "Mongoose",
+    "percentage": 75,
+    "category": "ODM",
+    "logs": ["SCHEMA_DESIGN", "MODEL_RELATIONS", "MIDDLEWARE_HOOKS", "VALIDATION"]
+  },
+  {
+    "name": "SQL",
+    "percentage": 70,
+    "category": "Database Language",
+    "logs": ["JOINS", "AGGREGATION", "INDEX_USAGE", "QUERY_OPTIMIZATION"]
+  },
+  {
+    "name": "Prisma",
+    "percentage": 65,
+    "category": "ORM",
+    "logs": ["SCHEMA_MODELING", "MIGRATIONS", "RELATIONS", "TYPE_SAFE_QUERIES"]
+  },
+  {
+    "name": "Git & GitHub",
+    "percentage": 85,
+    "category": "Version Control",
+    "logs": ["BRANCHING", "PULL_REQUESTS", "MERGE_CONFLICTS", "COLLAB_WORKFLOW"]
+  },
+  {
+    "name": "Docker",
+    "percentage": 65,
+    "category": "DevOps",
+    "logs": ["CONTAINERIZATION", "DOCKERFILE_SETUP", "MULTI_SERVICE", "LOCAL_DEPLOYMENT"]
+  },
+  {
+    "name": "VS Code",
+    "percentage": 90,
+    "category": "Development Environment",
+    "logs": ["EXTENSIONS", "DEBUGGING", "INTELLISENSE", "TERMINAL_USAGE"]
+  },
+  {
+    "name": "Figma",
+    "percentage": 70,
+    "category": "Design Tool",
+    "logs": ["WIREFRAMING", "UI_DESIGN", "PROTOTYPING", "COMPONENT_SYSTEM"]
+  },
+  {
+    "name": "Prompt Engineering",
+    "percentage": 75,
+    "category": "AI",
+    "logs": ["CONTEXT_STRUCTURING", "CHAIN_OF_THOUGHT", "SYSTEM_PROMPTS", "OUTPUT_CONTROL"]
+  },
+  {
+    "name": "Using LLM APIs",
+    "percentage": 70,
+    "category": "AI Integration",
+    "logs": ["STREAMED_RESPONSES", "TOKEN_MANAGEMENT", "API_HANDLING", "MODEL_SELECTION"]
+  },
+  {
+    "name": "AI Integration in Web Apps",
+    "percentage": 65,
+    "category": "AI Engineering",
+    "logs": ["AI_FEATURES", "BACKEND_INTEGRATION", "REALTIME_AI", "UX_OPTIMIZATION"]
+  },
+  {
+    "name": "Java",
+    "percentage": 70,
+    "category": "Programming Language",
+    "logs": ["OOPS", "COLLECTIONS", "BASIC_DSA", "EXCEPTION_HANDLING"]
+  },
+  {
+    "name": "Python",
+    "percentage": 65,
+    "category": "Programming Language",
+    "logs": ["BASIC_SCRIPTING", "API_USAGE", "OOPS", "DATA_STRUCTURES"]
+  },
+  {
+    "name": "JavaScript",
+    "percentage": 90,
+    "category": "Programming Language",
+    "logs": ["FUNCTIONAL_JS", "ASYNC_FLOW", "ES6_FEATURES", "LOGIC_BUILDING"]
+  }
+]
+
+,
+    "projects": [
+        {
+            "id": "01",
+            "title": "Aether Protocol",
+            "category": "Core Engine",
+            "year": "2023",
+            "tech": "Rust",
+            "tags": [
+                "Go",
+                "React"
+            ],
+            "description": "AI-driven data visualization engine built with Go and React. A living, breathing archive of digital consciousness.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJj_zOMIgI1s_ofBKDt7V0F6RJKYVu5cCrNENqXMv5JQaKQTu4C_Lits9GVUiLhEqqAU1d_k6dLcyIC9GBiq0dRxvTzn_Tg1DtM6yrPpz1c8M8lAgO-8ZCIvG3RxybuxTH-p_JBXV-rnxQy90kA27Qde6KshW_Z5AZJPy3TjTZkgXKPL3hahqDoxU5RlV1RsMJGgW3NOsvuzbM2JGHeLUWP1QBz-uUD-ytb1CYNf7RxL59EsIGb_iwUohozt6BQcgTLgSSdj1UlJQo",
+            "alt": "Abstract dark minimalist 3D geometric shapes",
+            "gallery": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuCrMYC3e7AON_Ao0q5mqxCv8RztQdhUAmdcaIS-yPdmgJbA7L5r0G_g5cnKx_ai3VtRa_wFAnj6wvsVcBb04Ax-d0n99V8RIJKQNNGtqASOlrOv41-R17I9ph9mNP3R180vmTFMyKzN2ZHXQICx2gfKeRQN-Ngt6wvfaxK3W8RHcgqQwJgZJC3b16b-pYo88MqXU5Z0atJ2eqVCq0iOh4Zlv9JYiQTlqTnKcT3g5U1wcekRNq12vhuB8YhSzgzBYDafo9fPd3jU1feG",
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuBsCZ48aC0zl2uvg8kTWflvY2mtT6vKxbmizuLXSOQ3csBRUdEhYjsrUloQla0gZ2peygUQ-kKsDJjr5aqmbOVM8iFcBdvaLmfmG2ERTkiqL9XTldWiB-g-2U3qeR6JJ34EDryMc3z2V_7ysKm4vmr6zXyPjXrVX1AT0dq6UPij8R3803UprfF46wK8RQdprf3PxyqV1zwJcyfrKI1LguRQRTvgWo_0JGL45ehJhV-0jQ06pZx4HUMFpHKMjRXLCL8xV1AOjd7KP8Ga",
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuCq7wSB1YB38kOc6tTecRE3m0_pPxGhQVh6hllacakQgBJTaGsimgqqC3erUJPOwUsUJ8dTIKOWrd51AJNL-ALdy6wOP1n2rrItP5JnYpY9aTvy-Ozp8uRv4dyVT8MUCWjXCp3NJAVuTPZsbCn2Vqd1DIf1aqZwW7NwzUXFuPg0LI-eRtuquaHtFJU-Jgo8oVyyIGXa_cgNLU6lIyFU6TIiU7vW8MXIbWmQjAKRDKlekOkSzRElktKDXaRQgtpWW2xcwbzzJTA2O_xb"
+            ]
+        },
+        {
+            "id": "02",
+            "title": "Vortex OS",
+            "category": "UI Framework",
+            "year": "2024",
+            "tech": "TypeScript",
+            "tags": [
+                "Rust",
+                "Next.js"
+            ],
+            "description": "Real-time blockchain monitoring tool using Rust and Next.js.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAtAEKKlNJezSZGvp5j0jo76KKSi99I2y3J11gXNG1pX1T3Dy9D62UX_ze3gFflByqcKUdqX88IhBLADcrYMN77Rbn7ffFlSgB1ysGN2xoEwCXP938pibV8M1JKTMPC_LxuNlxvR6DsAHjGVCVaE3lmJWLYL_KcuGH5lGhTG1h1d8PDbTVOeiuxGK-LSfUBQblaEg6--SdBOijPhrqQDBmMI9kuNQ2b6Hl7ksxZeTEiqGPyV7Wh7F6cjhVu4IWsI0XIYTlZ13i36oLc",
+            "alt": "High contrast generative art pattern white lines on black",
+            "gallery": []
+        },
+        {
+            "id": "03",
+            "title": "Flux Arch",
+            "category": "Architecture",
+            "year": "2024",
+            "tech": "Three.js",
+            "tags": [
+                "Three.js",
+                "TS"
+            ],
+            "description": "Experimental architecture visualization using Three.js and TypeScript.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCq7wSB1YB38kOc6tTecRE3m0_pPxGhQVh6hllacakQgBJTaGsimgqqC3erUJPOwUsUJ8dTIKOWrd51AJNL-ALdy6wOP1n2rrItP5JnYpY9aTvy-Ozp8uRv4dyVT8MUCWjXCp3NJAVuTPZsbCn2Vqd1DIf1aqZwW7NwzUXFuPg0LI-eRtuquaHtFJU-Jgo8oVyyIGXa_cgNLU6lIyFU6TIiU7vW8MXIbWmQjAKRDKlekOkSzRElktKDXaRQgtpWW2xcwbzzJTA2O_xb",
+            "alt": "Three.js visualization",
+            "gallery": []
+        },
+        {
+            "id": "04",
+            "title": "Void System",
+            "category": "Game Engine",
+            "year": "2023",
+            "tech": "C++",
+            "tags": [
+                "C++",
+                "Unreal"
+            ],
+            "description": "High-performance game engine subsystem for volumetric lighting.",
+            "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=2070",
+            "alt": "Void system engine",
+            "gallery": []
+        }
+    ],
+    "socials": [
+        {
+            "label": "GH",
+            "href": "#"
+        },
+        {
+            "label": "LI",
+            "href": "#"
+        },
+        {
+            "label": "TW",
+            "href": "#"
+        }
+    ],
+    "footer": {
+        "copyright": "© 2024 Manan Gupta Studio"
+    }
+}
