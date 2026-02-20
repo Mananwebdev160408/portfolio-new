@@ -3,7 +3,7 @@
         "name": "Manan Gupta",
         "initials": "MG",
         "role": "Full-Stack Engineer",
-        "description": "Full-stack engineer building digital architecture at the intersection of performance and aesthetics.",
+        "description": "Full-stack developer focused on building scalable, AI-integrated web applications with clean architecture and real-world impact.",
         "email": "guptamanan576@gmail.com",
         "location": "Chandigarh",
         "available": true,
@@ -302,37 +302,71 @@
     "projects": [
         {
             "id": "01",
-            "title": "Aether Protocol",
-            "category": "Core Engine",
-            "year": "2023",
-            "tech": "Rust",
+            "title": "VectorLabs",
+            "category": "Full-Stack",
+            "year": "2026",
+            "tech": "Web",
             "tags": [
-                "Go",
-                "React"
-            ],
-            "description": "AI-driven data visualization engine built with Go and React. A living, breathing archive of digital consciousness.",
-            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJj_zOMIgI1s_ofBKDt7V0F6RJKYVu5cCrNENqXMv5JQaKQTu4C_Lits9GVUiLhEqqAU1d_k6dLcyIC9GBiq0dRxvTzn_Tg1DtM6yrPpz1c8M8lAgO-8ZCIvG3RxybuxTH-p_JBXV-rnxQy90kA27Qde6KshW_Z5AZJPy3TjTZkgXKPL3hahqDoxU5RlV1RsMJGgW3NOsvuzbM2JGHeLUWP1QBz-uUD-ytb1CYNf7RxL59EsIGb_iwUohozt6BQcgTLgSSdj1UlJQo",
+             "React",             
+             "Next.js 15",        
+             "TypeScript",        
+             "Tailwind CSS",      
+             "Three.js",          
+             "React Three Fiber", 
+             "Math.js",           
+             "Monaco Editor",     
+             "WebContainers",     
+             "Lucide React",      
+             "Radix UI / Shadcn", 
+             "Framer Motion",     
+             "MongoDB",           
+             "Mongoose",          
+             "Gemini 1.5 Flash",  
+             "Node.js"         
+              ],
+            "mission": "To empower the next generation of full-spectrum engineers by providing an integrated, zero-latency environment that makes complex computing fundamentals visible, interactive, and accessible.",
+            "description":"VectorLabs is an industrial-grade engineering playground that unifies the computing stack. It bridges the gap between low-level silicon logic and high-level cloud architecture, offering specialized environments for 8085 emulation, 3D math visualization, and full-stack web development—all accelerated by integrated AI.",
+            "image": "/vectorlabs/image.png",
             "alt": "Abstract dark minimalist 3D geometric shapes",
+            "hostedLink": "https://vectorlabs-ai.vercel.app",
+            "source":"https://github.com/Mananwebdev160408/vectorlabs.git",
             "gallery": [
-                "https://lh3.googleusercontent.com/aida-public/AB6AXuCrMYC3e7AON_Ao0q5mqxCv8RztQdhUAmdcaIS-yPdmgJbA7L5r0G_g5cnKx_ai3VtRa_wFAnj6wvsVcBb04Ax-d0n99V8RIJKQNNGtqASOlrOv41-R17I9ph9mNP3R180vmTFMyKzN2ZHXQICx2gfKeRQN-Ngt6wvfaxK3W8RHcgqQwJgZJC3b16b-pYo88MqXU5Z0atJ2eqVCq0iOh4Zlv9JYiQTlqTnKcT3g5U1wcekRNq12vhuB8YhSzgzBYDafo9fPd3jU1feG",
-                "https://lh3.googleusercontent.com/aida-public/AB6AXuBsCZ48aC0zl2uvg8kTWflvY2mtT6vKxbmizuLXSOQ3csBRUdEhYjsrUloQla0gZ2peygUQ-kKsDJjr5aqmbOVM8iFcBdvaLmfmG2ERTkiqL9XTldWiB-g-2U3qeR6JJ34EDryMc3z2V_7ysKm4vmr6zXyPjXrVX1AT0dq6UPij8R3803UprfF46wK8RQdprf3PxyqV1zwJcyfrKI1LguRQRTvgWo_0JGL45ehJhV-0jQ06pZx4HUMFpHKMjRXLCL8xV1AOjd7KP8Ga",
-                "https://lh3.googleusercontent.com/aida-public/AB6AXuCq7wSB1YB38kOc6tTecRE3m0_pPxGhQVh6hllacakQgBJTaGsimgqqC3erUJPOwUsUJ8dTIKOWrd51AJNL-ALdy6wOP1n2rrItP5JnYpY9aTvy-Ozp8uRv4dyVT8MUCWjXCp3NJAVuTPZsbCn2Vqd1DIf1aqZwW7NwzUXFuPg0LI-eRtuquaHtFJU-Jgo8oVyyIGXa_cgNLU6lIyFU6TIiU7vW8MXIbWmQjAKRDKlekOkSzRElktKDXaRQgtpWW2xcwbzzJTA2O_xb"
+                "/vectorlabs/image1.png",
+                "/vectorlabs/image2.png",
+                "/vectorlabs/image3.png"
             ]
         },
         {
             "id": "02",
-            "title": "Vortex OS",
-            "category": "UI Framework",
-            "year": "2024",
-            "tech": "TypeScript",
+            "title": "StudyFlow",
+            "category": "Full-Stack",
+            "year": "2026",
+            "tech": "Web",
             "tags": [
-                "Rust",
-                "Next.js"
+                "React.js",
+                "Next.js 15",
+                "TypeScript",
+                "Tailwind CSS",
+                "Lucide React",
+                "Radix UI / Shadcn",
+                "Framer Motion",
+                "MongoDB",
+                "Mongoose",
+                "Gemini 1.5 Flash",
+                "Node.js"
             ],
-            "description": "Real-time blockchain monitoring tool using Rust and Next.js.",
-            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAtAEKKlNJezSZGvp5j0jo76KKSi99I2y3J11gXNG1pX1T3Dy9D62UX_ze3gFflByqcKUdqX88IhBLADcrYMN77Rbn7ffFlSgB1ysGN2xoEwCXP938pibV8M1JKTMPC_LxuNlxvR6DsAHjGVCVaE3lmJWLYL_KcuGH5lGhTG1h1d8PDbTVOeiuxGK-LSfUBQblaEg6--SdBOijPhrqQDBmMI9kuNQ2b6Hl7ksxZeTEiqGPyV7Wh7F6cjhVu4IWsI0XIYTlZ13i36oLc",
+
+            "description": "StudyFlow is an AI-driven learning ecosystem that transforms studying into an active, gamified journey. By combining LLMs with deep learning analytics and real-time tracking, it provides a personalized, distraction-free environment tailored to individual learning styles.",
+            "mission": "To make learning more engaging, personalized, and effective by leveraging AI to create an adaptive educational experience that caters to each student's unique needs and goals.",
+            "image": "/studyflow/image.png",
             "alt": "High contrast generative art pattern white lines on black",
-            "gallery": []
+            "hostedLink": "https://studyflowww.vercel.app",
+            "source":"https://github.com/Mananwebdev160408/studyflow-frontend.git",
+            "gallery": [
+                "/studyflow/image1.png",
+                "/studyflow/image2.png",
+                "/studyflow/image3.png"
+            ]
         },
         {
             "id": "03",
@@ -364,6 +398,7 @@
             "alt": "Void system engine",
             "gallery": []
         }
+
     ],
     "socials": [
         {
