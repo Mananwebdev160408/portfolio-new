@@ -328,7 +328,6 @@
             "description":"VectorLabs is an industrial-grade engineering playground that unifies the computing stack. It bridges the gap between low-level silicon logic and high-level cloud architecture, offering specialized environments for 8085 emulation, 3D math visualization, and full-stack web development—all accelerated by integrated AI.",
             "image": "/vectorlabs/image.png",
             "alt": "Abstract dark minimalist 3D geometric shapes",
-            "hostedLink": "https://vectorlabs-ai.vercel.app",
             "source":"https://github.com/Mananwebdev160408/vectorlabs.git",
             "gallery": [
                 "/vectorlabs/image1.png",
@@ -415,6 +414,6 @@
         }
     ],
     "footer": {
-        "copyright": "© 2024 Manan Gupta Studio"
+        "copyright": "© 2026 Manan Gupta Studio"
     }
 }
