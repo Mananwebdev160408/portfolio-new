@@ -1,7 +1,9 @@
 import Image from "next/image";
 import mockData from "../data/mock.json";
+import { useRouter } from "next/navigation";
 
 export default function Hero() {
+  const router = useRouter();
   const { personalInfo } = mockData;
   const [firstName, lastName] = personalInfo.name.split(" ");
 
@@ -39,7 +41,9 @@ export default function Hero() {
           <p className="text-sm font-light leading-relaxed text-slate-300">
             {personalInfo.description.toUpperCase()}
           </p>
-          <button className="w-fit group flex items-center gap-2 text-xs font-bold uppercase tracking-widest border-b border-white pb-1 hover:text-primary hover:border-primary transition-all text-white">
+          <button
+          onClick={() => router.push("/projects")}
+          className="w-fit group flex items-center gap-2 text-xs font-bold uppercase tracking-widest border-b border-white pb-1 hover:text-primary hover:border-primary transition-all text-white">
             Explore Works
             <span className="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">
               arrow_forward
