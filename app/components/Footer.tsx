@@ -1,7 +1,10 @@
+"use client";
+import { useRouter } from "next/navigation";
 import mockData from "../data/mock.json";
 
 export default function Footer() {
-  const { personalInfo, socials, footer } = mockData;
+  const { personalInfo, socials} = mockData;
+  const router = useRouter();
 
   return (
     <footer className="mt-auto border-t border-white/10 px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-8 relative z-10 bg-background-dark/80 backdrop-blur-md text-white">
@@ -10,7 +13,15 @@ export default function Footer() {
           <span className="text-[10px] text-slate-500 font-bold tracking-widest uppercase">
             Local Time
           </span>
-          <span className="text-sm font-medium">02:44 PM GMT-5</span>
+          <span className="text-sm font-medium">
+            {new Date().toLocaleTimeString("en-US", {
+              hour: "2-digit",
+              minute: "2-digit",
+              hour12: true,
+              timeZone: "Asia/Kolkata",
+            })}
+            {" "}GMT+5:30
+          </span>
         </div>
         <div className="flex flex-col gap-1">
           <span className="text-[10px] text-slate-500 font-bold tracking-widest uppercase">
@@ -34,7 +45,7 @@ export default function Footer() {
           <span className="text-[10px] text-slate-500 font-bold tracking-widest uppercase">
             Get in touch
           </span>
-          <span className="text-xl font-bold tracking-tighter group-hover:text-primary transition-colors">
+          <span onClick={() => window.location.href = `mailto:${personalInfo.email}`} className="text-xl font-bold tracking-tighter group-hover:text-primary transition-colors">
             {personalInfo.email.toUpperCase()}
           </span>
         </div>
@@ -43,7 +54,7 @@ export default function Footer() {
         </span>
       </div>
       <div className="md:absolute md:left-1/2 md:-translate-x-1/2 bottom-12 text-[10px] text-slate-600 font-bold tracking-[0.5em] uppercase">
-        {footer.copyright.replace("2024", new Date().getFullYear().toString())}
+        © {new Date().getFullYear().toString()} Manan Gupta Studio
       </div>
     </footer>
   );

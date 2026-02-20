@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import mockData from "../data/mock.json";
 import { useRouter } from "next/navigation";

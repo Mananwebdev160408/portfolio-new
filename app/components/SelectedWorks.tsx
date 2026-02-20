@@ -1,8 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import mockData from "../data/mock.json";
+import { useRouter } from "next/navigation";
 
 export default function SelectedWorks() {
   const { projects } = mockData;
+  const router = useRouter();
 
   return (
     <>
@@ -31,6 +35,7 @@ export default function SelectedWorks() {
         {projects.map((project, index) => (
           <div
             key={project.id}
+            onClick={() => router.push(`/projects/${project.id}`)}
             className={`group cursor-pointer ${
               index === 1 ? "md:mt-24" : ""
             }`}

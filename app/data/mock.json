@@ -369,7 +369,7 @@
         },
         {
             "id": "03",
-            "title": "Flux Arch",
+            "title": "Flux-Arch",
             "category": "Architecture",
             "year": "2024",
             "tech": "Three.js",
@@ -384,7 +384,7 @@
         },
         {
             "id": "04",
-            "title": "Void System",
+            "title": "Void-System",
             "category": "Game Engine",
             "year": "2023",
             "tech": "C++",
@@ -402,18 +402,15 @@
     "socials": [
         {
             "label": "GH",
-            "href": "#"
+            "href": "https://github.com/Mananwebdev160408"
         },
         {
             "label": "LI",
-            "href": "#"
+            "href": "https://www.linkedin.com/in/manan-gupta-33b5b9378/"
         },
         {
             "label": "TW",
-            "href": "#"
+            "href": "https://x.com/Manangupta24441"
         }
-    ],
-    "footer": {
-        "copyright": "© 2026 Manan Gupta Studio"
-    }
+    ]
 }
