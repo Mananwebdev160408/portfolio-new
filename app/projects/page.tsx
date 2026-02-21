@@ -2,9 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import BackgroundEffects from "../components/BackgroundEffects";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import mockData from "../data/mock.json";
 import Image from "next/image";
 
@@ -18,10 +15,7 @@ export default function Projects() {
     : null;
 
   return (
-    <div className="relative min-h-screen flex flex-col font-display text-slate-100 overflow-x-hidden selection:bg-white selection:text-black bg-black">
-      <BackgroundEffects />
-      <Header />
-
+    <>
       {/* Dynamic Background Preview */}
       <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
         {background && (
@@ -44,8 +38,8 @@ export default function Projects() {
                 Index
               </h2>
               <p className="font-mono text-[10px] text-white/50 max-w-[200px] leading-relaxed">
-                SELECTED WORKS FROM 2023-2024. EXPLORING DIGITAL BRUTALISM & AI
-                INTEGRATION.
+                A CURATED COLLECTION OF DIGITAL EXPERIENCES, EXPERIMENTS, AND
+                TECHNICAL EXPLORATIONS.
               </p>
             </div>
           </div>
@@ -88,13 +82,9 @@ export default function Projects() {
                 </div>
               </Link>
             ))}
-
-            
           </div>
         </section>
       </main>
-
-      <Footer />
-    </div>
+    </>
   );
 }

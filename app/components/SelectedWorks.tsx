@@ -3,15 +3,45 @@
 import Image from "next/image";
 import mockData from "../data/mock.json";
 import { useRouter } from "next/navigation";
+import { motion, Variants } from "motion/react";
 
 export default function SelectedWorks() {
   const { projects } = mockData;
   const router = useRouter();
 
+  const containerVariants: Variants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants: Variants = {
+    hidden: { y: 50, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.8,
+        ease: [0.16, 1, 0.3, 1] as any,
+      },
+    },
+  };
+
   return (
     <>
       {/* Selected Works Header */}
-      <section id="works" className="mb-24 px-4 overflow-hidden">
+      <motion.section
+        id="works"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+        className="mb-24 px-4 overflow-hidden"
+      >
         <div className="flex flex-col md:flex-row items-end justify-between border-t border-white/10 pt-8 gap-8">
           <div className="flex flex-col gap-2">
             <span className="text-primary text-sm font-bold tracking-widest uppercase">
@@ -28,29 +58,38 @@ export default function SelectedWorks() {
             </p>
           </div>
         </div>
-      </section>
+      </motion.section>
 
       {/* Works Grid */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-12 px-4">
+      <motion.section
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        className="grid grid-cols-1 md:grid-cols-2 gap-12 px-4"
+      >
         {projects.map((project, index) => (
-          <div
+          <motion.div
             key={project.id}
+            variants={itemVariants}
             onClick={() => router.push(`/projects/${project.id}`)}
-            className={`group cursor-pointer ${
-              index === 1 ? "md:mt-24" : ""
-            }`}
+            className={`group cursor-pointer ${index === 1 ? "md:mt-24" : ""}`}
           >
             <div className="relative aspect-[16/10] bg-zinc-900 overflow-hidden border border-white/10 mb-6">
               <Image
                 alt={project.title}
                 src={project.image}
                 fill
-                className="object-cover grayscale brightness-75 group-hover:scale-105 transition-transform duration-700"
+                className="object-cover grayscale brightness-75 group-hover:scale-110 group-hover:grayscale-0 transition-all duration-700 ease-out"
               />
               <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
-                <span className="bg-white text-black px-6 py-2 font-bold uppercase text-xs tracking-widest">
+                <motion.span
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  whileHover={{ scale: 1, opacity: 1 }}
+                  className="bg-white text-black px-6 py-2 font-bold uppercase text-xs tracking-widest"
+                >
                   View Project
-                </span>
+                </motion.span>
               </div>
             </div>
             <div className="flex justify-between items-start text-white">
@@ -68,9 +107,9 @@ export default function SelectedWorks() {
                 {project.id}
               </span>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </section>
+      </motion.section>
     </>
   );
 }
