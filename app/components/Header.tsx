@@ -4,6 +4,7 @@ import Link from "next/link";
 import mockData from "../data/mock.json";
 import { useRouter } from "next/navigation";
 import { motion } from "motion/react";
+import Image from "next/image";
 
 export default function Header() {
   const router = useRouter();
@@ -20,17 +21,13 @@ export default function Header() {
         onClick={() => router.push("/")}
         className="flex cursor-pointer items-center gap-2"
       >
-        <motion.div
-          whileHover={{ scale: 1.1, rotate: 5 }}
-          className="w-8 h-8 bg-white flex items-center justify-center rounded-sm"
-        >
-          <span className="text-black font-bold text-xl">
-            {personalInfo.initials[0]}
-          </span>
-        </motion.div>
-        <span className="hidden md:block font-bold tracking-tighter text-xl">
-          {personalInfo.name.toUpperCase()}
-        </span>
+        <Image
+          src="/logo.svg"
+          alt="Logo"
+          width={32}
+          height={32}
+          className=" scale-125 "
+        />
       </button>
       <nav className="flex items-center gap-8 font-medium text-xs tracking-[0.2em] uppercase">
         {navigation.map((item, index) => (
